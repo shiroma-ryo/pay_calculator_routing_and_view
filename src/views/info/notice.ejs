@@ -1,0 +1,9 @@
+<div>
+  <ul data-test="notices">
+  <% for(const notice of notices) { %>
+    <li>
+      <%= notice.date %> <%= notice.body %>
+    </li>
+  <% } %>  
+  </ul>
+</div>

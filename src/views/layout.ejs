@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PAY CALCULATOR</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+  <header>
+    <div class="header-nav">
+      <a href="/">PAY CALCULATOR</a>
+    </div>
+    <p data-test="page-title"><%= (typeof title === 'undefined') ? 'PAY CALCULATOR' : title %></p>
+  </header>
+  <main>
+    <%- body %>
+  </main>
+  <footer>
+    <a href="/">TOP</a> | <a href="/pay-split">PaySplit</a> | <a href="/pay-total">PayTotal</a> | <a data-test="footer-notice-link" href="/info/notice">Notice</a> | <a data-test="footer-about-link" href="/info/about">About</a>
+  </footer>
+</body>
+</html>
